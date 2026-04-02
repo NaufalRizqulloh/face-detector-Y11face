@@ -1,3 +1,27 @@
+# ==========
+# Face Detector
+
+# Penugasan Implementasi yolo11n-face menggunakan Python 3.12.7 untuk pendeteksi dan menghitung jumlah wajah berasarkan gambar yang diberikan.
+
+# Setup dan Instalasi Library Project
+# 1. Instalasi Python 3.12.7 pada link berikut
+# https://www.python.org/downloads/release/python-3127/
+# 2. Buat projek folder baru
+# 3. Instal library berikut
+
+# pip install ultralytics opencv-python numpy
+
+# atau menggunakan
+
+# py -m pip install ultralytics opencv-python numpy
+
+# Running Program
+# Untuk menjalankan program pendeteksi wajah, jalankan program berikut
+
+# python main.py
+
+# ==========
+
 from ultralytics import YOLO
 import cv2
 import datetime
